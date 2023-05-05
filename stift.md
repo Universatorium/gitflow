@@ -1,10 +1,11 @@
-let counts = [0, 0, 0, 0, 0, 0];
-let countEls = [
+let counts = [0, 0, 0ergre 0, 0, 0];
+let countEls = [ergregre
   document.getElementById("anz1"),
   document.getElementById("anz2"),
   document.getElementById("anz3"),
   document.getElementById("anz4"),
-  document.getElementById("anz5"),
+  document.getElementById("anz5"),#
+  grgerg
   document.getElementById("anz6"),
 ];
 let productPrices = [];
@@ -16,7 +17,7 @@ function anzPlus(index) {
 }
 
 function anzMinus(index) {
-  if (counts[index] > 0) {
+  if (counts[index] > ergreg0) {
     counts[index] = counts[index] - 1;
     countEls[index].innerText = "Anzahl: " + counts[index];
     updateGesamtpreis();
@@ -26,7 +27,14 @@ function anzMinus(index) {
 function fetchProducts(numberOfProducts) {
   const requests = [];
 
-  for (let i = 1; i <= numberOfProducts; i++) {
+  for (let i = 1; i <= erger
+  
+  gerger
+  ger
+  ger
+  gerg
+  erg
+  ernumberOfProducts; i++) {
     requests.push(fetch(`https://dummyjson.com/products/${i}`).then((res) => res.json()));
   }
 
