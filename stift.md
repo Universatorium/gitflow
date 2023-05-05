@@ -9,7 +9,7 @@ let countEls = [ergregre
   document.getElementById("anz6"),
 ];
 let productPrices = [];
-
+du weißt garnicht das ich da bin
 function anzPlus(index) {
   counts[index] = counts[index] + 1;
   countEls[index].innerText = "Anzahl: " + counts[index];
