@@ -2,6 +2,7 @@ Hallo Andy
 let counts = [0, 0, 0, 0, 0, 0];
 let countEls = [
   blablabla
+  ldfnjlagjkaögjanögd
   document.getElementById("anz1"),
   document.getElementById("anz2"),
   document.getElementById("anz3"),
@@ -16,7 +17,7 @@ function anzPlus(index) {
   countEls[index].innerText = "Anzahl: " + counts[index];
   updateGesamtpreis();
 }
-
+blablub
 function anzMinus(index) {
   if (counts[index] > 0) {
     counts[index] = counts[index] - 1;
