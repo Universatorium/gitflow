@@ -10,6 +10,7 @@ let countEls = [
 let productPrices = [];
 
 function anzPlus(index) {
+  du findest nie was ich geändert habe
   counts[index] = counts[index] + 1;
   countEls[index].innerText = "Anzahl: " + counts[index];
   updateGesamtpreis();
