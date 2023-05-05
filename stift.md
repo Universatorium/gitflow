@@ -1,3 +1,4 @@
+Hallo Andy
 let counts = [0, 0, 0, 0, 0, 0];
 let countEls = [
   document.getElementById("anz1"),
