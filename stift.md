@@ -6,8 +6,6 @@ let countEls = [
   document.getElementById("anz4"),
   document.getElementById("anz5"),
   document.getElementById("anz6"),
-
-  ich war hier
 ];
 let productPrices = [];
 
@@ -20,7 +18,7 @@ function anzPlus(index) {
 function anzMinus(index) {
   if (counts[index] > 0) {
     counts[index] = counts[index] - 1;
-    countEls[index].innsrgreserText = "Anzahl: " + counts[index];
+    countEls[index].innerText = "Anzahl: " + counts[index];
     updateGesamtpreis();
   }
 }
