@@ -1,6 +1,7 @@
 Hallo Andy
 let counts = [0, 0, 0, 0, 0, 0];
 let countEls = [
+  blablabla
   document.getElementById("anz1"),
   document.getElementById("anz2"),
   document.getElementById("anz3"),
