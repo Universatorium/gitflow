@@ -5,7 +5,7 @@ let countEls = [
   document.getElementById("anz3"),
   document.getElementById("anz4"),
   document.getElementById("anz5"),
-  document.getElementById("anz6"),
+  document.getElementById("anz6"),hrthtrhrhrth
 ];
 let productPrices = [];
 
